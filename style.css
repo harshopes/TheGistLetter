@@ -1,0 +1,87 @@
+body {
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    background-color: #dee2e6;
+}
+
+navbar {
+    font-family: 'EB Garamond', serif;
+}
+
+.container {
+    margin-top: 0;
+    max-width: 1200px;
+    margin-inline: auto;
+    padding-inline: 20px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    font-size: 1.2rem;
+    font-weight: 400;
+}
+
+ul {
+    list-style: none;
+}
+
+h1 {
+    font-size: 3rem;
+}
+
+h2 {
+    font-size: 2rem;
+}
+
+h3 {
+    font-size: 1.5rem;
+}
+
+p {
+    font-size: 1.25rem;
+}
+
+.flex {
+    display: flex;
+    align-items: center;
+}
+
+.main-nav {
+    justify-content: space-between;
+    text-align: center;
+}
+
+.links ul {
+    justify-content: start;
+    gap: 30px;
+}
+
+.links {
+    /* justify-content: start; */
+}
+
+.button {
+    padding: 10px 10px;
+    border: 1px solid black;
+    border-radius: 15px;
+    box-shadow: 3px 5px;
+    /* background-color: aqua; */
+}
+
+.button2 {
+    background-color: white;
+}
+
+.button:hover {
+    background-color: orange;
+    position: relative;
+    bottom: 1px;
+    transition: 0.3s ease-in;
+}
+
+.button2:hover {
+    background-color: yellow;
+
+}
