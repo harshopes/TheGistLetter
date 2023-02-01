@@ -2,7 +2,11 @@ body {
     margin: 0;
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
-    background-color: #dee2e6;
+    background-color: #D4D4D4;
+
+    background-color: #d4d4d4;
+    background-image: url("https://www.transparenttextures.com/patterns/cardboard.png");
+
 }
 
 .container {
@@ -46,12 +50,7 @@ p {
     align-items: center;
 }
 
-
-
-
-
 /* NAVBAR */
-
 navbar {
     font-family: 'EB Garamond', serif;
 }
@@ -111,6 +110,10 @@ navbar {
     padding-top: 100px;
     padding-bottom: 60px;
 }
+
+/* .underlined {
+    position: relative;
+} */
 
 .main-head-p {
     margin-bottom: 40px;
